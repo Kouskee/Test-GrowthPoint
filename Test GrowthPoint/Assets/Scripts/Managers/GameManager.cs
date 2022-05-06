@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     private SpawnSquares _spawnSquares;
     private Timer _timer;
 
-    private const float DURATION = 15f;
+    private const float DURATION = 5f;
 
     public void Init(Counter counter, PlayMode playMode, SpawnSquares spawnSquares)
     {
